@@ -7,6 +7,15 @@ body {
   width: 100%;
   background-color: #ccc;
 }
+header {
+  background-color: #337AB7;
+  width: 100%;
+  color: #000;
+  padding: 20px 0;
+}
+header a {
+  text-decoration: none;
+}
 h1 {
   text-align: center;
 }
