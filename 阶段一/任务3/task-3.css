@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding: 20px;
+	font-size: 15px;
+}
+
+.box {
+	background-color: #eee;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+.left {
+	width: 160px;
+	background-color: white;
+	padding: 20px;
+	float: left;
+}
+
+/*.left p {
+	position: relative;
+	left: 120px; top: 20px;
+	
+}
+
+这是用position设置的
+
+/*.left-2 {
+	position: relative;
+	left: 20px;  不需要设置top: 20px 
+	是因为p标签在box1-2上面，因为p设置了top:20px; 
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+}*/
+
+.left-2 {
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+	float: left;
+}
+
+.left p {
+	width: 60px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: red;
+	float: left;
+	margin-left: 20px;
+}
+
+/*------------*/
+.middle {
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	/*position: relative;
+	left: 240px; top: -170px;*/
+	border: 1px solid red;
+	background-color: white;
+}
+
+.middle p {
+	text-indent: 0.9cm;
+}
+
+.right {
+	width: 80px;
+	padding: 20px;
+	border: 1px solid red;
+	background-color: white;
+	float: right;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
