@@ -10,25 +10,25 @@ var aqiSourceData = {
 */
 
 
-   function addHandler(element, type, handler){
-    if (element.addEventListener){
-        element.addEventListener(type, handler, false);
-      } else if (element.attachEvent){
-        element.attachEvent("on" + type, handler);
-      } else {
-        element["on" + type] = handler;
-      }
-    }
-
-    function removeHandler(element, type, handler){
-    if (element.removeEventListener){
-        element.removeEventListener(type, handler, false);
-      } else if (element.detachEvent){
-        element.detachEvent("on" + type, handler);
-      } else {
-        element["on" + type] = null;
-      }
+function addHandler(element, type, handler){
+if (element.addEventListener){
+    element.addEventListener(type, handler, false);
+  } else if (element.attachEvent){
+    element.attachEvent("on" + type, handler);
+  } else {
+    element["on" + type] = handler;
   }
+}
+
+function removeHandler(element, type, handler){
+  if (element.removeEventListener){
+      element.removeEventListener(type, handler, false);
+  } else if (element.detachEvent){
+      element.detachEvent("on" + type, handler);
+  } else {
+      element["on" + type] = null;
+  }
+}
 
 
 // 以下两个函数用于随机模拟生成测试数据
@@ -251,7 +251,7 @@ function initAqiChartData() {
  * 初始化函数
  */
 function init() {
-  initGraTimeForm()
+  initGraTimeForm();
   initCitySelector();
   initAqiChartData();
 }
